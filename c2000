@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+	int arr[]={31,28,31,30,31,30,31,31,30,31,30,31};
+	int i;
+	scanf("%d",&i);
+	printf("%d\n",arr[i]);
+
+
+
+
+
+
+}
