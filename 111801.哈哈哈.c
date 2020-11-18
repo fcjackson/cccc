@@ -1,9 +1,10 @@
-5).
 #include<stdio.h>
 void main(){
 	int a=3;
 	int b=4;
 	int c=5;
+	int x;
+	int y;
 	if(!(a+b)+c-1 && b+c/2){
 	printf("为真命题");
 	}
@@ -12,16 +13,6 @@ void main(){
 	}
 }
 
-
-
-(4).
-#include<stdio.h>
-void main(){
-	int a=3;
-	int b=4;
-	int c=5;
-  int x;
-  int y;
 	if(!(x=a) && (y=b) && 0){
 	printf("为真命题");
 	}
@@ -30,14 +21,6 @@ void main(){
 	}
 }
 
-
-
-(3).
-#include<stdio.h>
-void main(){
-	int a=3;
-	int b=4;
-	int c=5;
 	if(!(a>b) && !c||1){
 	printf("为真命题");
 	}
@@ -46,14 +29,6 @@ void main(){
 	  }
   }
   
-  
-  
-  (2).
-  #include<stdio.h>
-void main(){
-	int a=3;
-	int b=4;
-	int c=5;
 	if(a||b+c && b-c){
 	printf("为真命题");
 	}
@@ -63,13 +38,6 @@ void main(){
 	}
 }
   
-  
-  (1).
-  #include<stdio.h>
-void main(){
-	int a=3;
-	int b=4;
-	int c=5;
 	if(a+b>c && b==c){
 	printf("为真命题");
 	}
